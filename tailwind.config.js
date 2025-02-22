@@ -3,13 +3,13 @@ export default {
     darkMode: ["class"],
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
-	container: {
-		center: true,
-		screens: {
-			xl: '1320px',
-			'2xl': '1320px'
-		}
-	},
+  	container: {
+  		center: true,
+  		screens: {
+  			xl: '1320px',
+  			'2xl': '1320px'
+  		}
+  	},
   	extend: {
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -56,6 +56,19 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
+  			}
+  		},
+  		animation: {
+  			orbit: 'orbit calc(var(--duration)*1s) linear infinite'
+  		},
+  		keyframes: {
+  			orbit: {
+  				'0%': {
+  					transform: 'rotate(calc(var(--angle) * 1deg)) translateY(calc(var(--radius) * 1px)) rotate(calc(var(--angle) * -1deg))'
+  				},
+  				'100%': {
+  					transform: 'rotate(calc(var(--angle) * 1deg + 360deg)) translateY(calc(var(--radius) * 1px)) rotate(calc((var(--angle) * -1deg) - 360deg))'
+  				}
   			}
   		}
   	}

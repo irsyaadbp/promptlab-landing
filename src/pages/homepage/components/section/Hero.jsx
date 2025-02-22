@@ -19,11 +19,13 @@ export default function Hero() {
           {application.name}
         </h2>
       </div>
+      <div className="h-[220px]">
         <Spline
           scene="https://prod.spline.design/7Yvo70AVWpNRc7xj/scene.splinecode"
           onLoad={onLoad}
-          className="absolute left-0 right-0 bottom-[-220px]"
+          className="absolute left-0 right-0 bottom-0"
         />
+      </div>
     </section>
   );
 }

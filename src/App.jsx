@@ -24,8 +24,6 @@ const navigations = [
 ];
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Navbar data={navigations} />
