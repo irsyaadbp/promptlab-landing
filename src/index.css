@@ -58,6 +58,24 @@
   }
 }
 
+@font-face {
+  font-family: 'Inter Display';
+  src: url('@/assets/fonts/inter/InterDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('@/assets/fonts/inter/InterDisplay-Medium.ttf') format('truetype');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('@/assets/fonts/inter/InterDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -65,4 +83,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+html {
+  font-family: 'Inter Display', sans-serif;
 }
