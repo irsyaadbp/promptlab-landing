@@ -48,7 +48,7 @@ export default function GettingStarted() {
                 <OrbitingCirclesDemo />
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-20">
               <CardGettingStartedItem>
                 <div className="flex gap-6 items-center">
                   <img src="/frame-2147226728.png" className="object-cover" />
