@@ -1,18 +1,12 @@
 import IconGithub from "@/components/icon/github";
 import { Button } from "@/components/ui/button";
 import Caption from "@/components/ui/caption";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import Title from "@/components/ui/title";
-import { OrbitingCirclesDemo } from "../ui/Circular";
-import CardGettingStartedItem from "../ui/CardGettingStartedItem";
+import { OrbitingCirclesDemo } from "./components/Circular";
+import CardGettingStartedItem from "./components/Card";
 import { ArrowRight } from "lucide-react";
+import CopyScript from "@/components/ui/copy-script";
 
 export default function GettingStarted() {
   return (
@@ -22,7 +16,10 @@ export default function GettingStarted() {
         <Caption className="text-center mt-4">
           Type your prompt. Watch your code come to life.
         </Caption>
-        <div className="mt-10">
+        <div className="flex justify-center mt-10">
+          <CopyScript script={"npm install promptlab"} className="w-[490px]"/>
+        </div>
+        <div className="mt-8">
           <div className="flex justify-center gap-3">
             <Button>Start Free</Button>
             <Button variant="outline" className="px-8">

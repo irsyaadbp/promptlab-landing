@@ -29,7 +29,7 @@ export function Navbar({ data = [], ...props }) {
       <div className={cn('navbar', isScrolled && "navbar-blur")}>
         <nav
           className={cn(
-            "container flex items-center justify-between py-9 transition-all relative px-4 xl:px-0",
+            "container flex items-center justify-between py-9 transition-all relative px-4",
             isScrolled && "py-4"
           )}
         >

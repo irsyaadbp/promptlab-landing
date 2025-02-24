@@ -1,6 +1,6 @@
 import GradientWrapper from "@/components/layouts/gradient-wrapper";
-import Hero from "@/pages/homepage/components/section/Hero";
-import GettingStarted from "@/pages/homepage/components/section/GettingStarted";
+import Hero from "@/pages/homepage/section/Hero";
+import GettingStarted from "@/pages/homepage/section/GettingStarted";
 
 export default function Homepage() {
   return (
