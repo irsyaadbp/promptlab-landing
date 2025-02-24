@@ -9,7 +9,7 @@ export default function Footer() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
   return (
-    <footer>
+    <footer className="relative">
       <div className="container px-4">
         <h1 className="gradient-text font-medium text-3xl mt-8">
           {application.name}

@@ -9,12 +9,15 @@ export default function Homepage() {
   return (
     <>
       <Hero />
-      <GradientWrapper className="mt-[220px]">
-        <GettingStarted />
-        <Feature />
-        <Tools />
-        <Contact />
-      </GradientWrapper>
+      <div className="relative mt-[220px]">
+        <GradientWrapper className="sticky inset-0" />
+        <div className="relative">
+          <GettingStarted />
+          <Feature />
+          <Tools />
+          <Contact />
+        </div>
+      </div>
     </>
   );
 }
