@@ -3,6 +3,7 @@ import Hero from "@/pages/homepage/section/Hero";
 import GettingStarted from "@/pages/homepage/section/GettingStarted";
 import Feature from "@/pages/homepage/section/Feature";
 import Tools from "@/pages/homepage/section/Tools";
+import Contact from "@/pages/homepage/section/Contact";
 
 export default function Homepage() {
   return (
@@ -12,6 +13,7 @@ export default function Homepage() {
         <GettingStarted />
         <Feature />
         <Tools />
+        <Contact />
       </GradientWrapper>
     </>
   );

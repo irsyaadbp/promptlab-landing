@@ -11,7 +11,7 @@ export default function Tools() {
         <Caption className="text-center mt-4">
           Type your prompt. Watch your code come to life.
         </Caption>
-        <Tabs defaultValue="account" className="mt-14">
+        <Tabs defaultValue="github_gitlab" className="mt-14">
           <div className="flex justify-center">
             <TabsList className="gap-8">
               {tabList.map((tab) => (
