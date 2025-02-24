@@ -136,3 +136,7 @@ html {
   font-family: "M PLUS Code Latin", serif;
   font-optical-sizing: auto;
 }
+
+.tab-shadow-active[data-state="active"] {
+  box-shadow: 0px 4px 4px 0px #ffffff40 inset;
+}

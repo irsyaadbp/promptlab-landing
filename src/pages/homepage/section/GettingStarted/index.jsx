@@ -10,7 +10,7 @@ import CopyScript from "@/components/ui/copy-script";
 
 export default function GettingStarted() {
   return (
-    <section className="py-12 relative">
+    <section className="py-20 relative">
       <div className="container px-4">
         <Title className="text-center">Start Building with AI Now!</Title>
         <Caption className="text-center mt-4">
