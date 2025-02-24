@@ -17,7 +17,7 @@ export default function GettingStarted() {
           Type your prompt. Watch your code come to life.
         </Caption>
         <div className="flex justify-center mt-10">
-          <CopyScript script={"npm install promptlab"} className="w-[490px]"/>
+          <CopyScript script={"npm install promptlab"} className="w-[490px]" />
         </div>
         <div className="mt-8">
           <div className="flex justify-center gap-3">
@@ -28,7 +28,12 @@ export default function GettingStarted() {
             </Button>
           </div>
         </div>
-        <Card className="mt-20">
+        <Card
+          className="mt-20"
+          style={{
+            background: "linear-gradient(180deg, #10181E 0%, #0E1F25 100%)",
+          }}
+        >
           <div className="py-16 px-12">
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="flex flex-col gap-4 justify-center items-start">
