@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Caption from "@/components/ui/caption";
 import { Card } from "@/components/ui/card";
 import Title from "@/components/ui/title";
@@ -30,6 +31,9 @@ export default function Feature() {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="flex justify-center mt-20">
+              <Button>Try It Now</Button>
             </div>
           </div>
         </Card>
