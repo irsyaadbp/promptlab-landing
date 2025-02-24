@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/layouts/navbar";
 import Homepage from "@/pages/homepage";
+import Footer from "@/components/layouts/footer";
 
 const navigations = [
   {
@@ -25,6 +26,7 @@ function App() {
     <>
       <Navbar data={navigations} />
       <Homepage />
+      <Footer/>
     </>
   );
 }

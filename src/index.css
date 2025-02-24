@@ -67,6 +67,12 @@
   }
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"),
+    url("@/assets/fonts/Helvetica.ttf") format("truetype");
+}
+
 html {
   font-family: "Inter", serif;
 }
@@ -139,4 +145,9 @@ html {
 
 .tab-shadow-active[data-state="active"] {
   box-shadow: 0px 4px 4px 0px #ffffff40 inset;
+}
+
+.text-copyright {
+  font-family: "Helvetica", serif;
+  @apply text-lg font-normal;
 }

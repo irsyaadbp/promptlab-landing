@@ -9,7 +9,7 @@ export default function Homepage() {
   return (
     <>
       <Hero />
-      <GradientWrapper className="mt-[220px] sticky">
+      <GradientWrapper className="mt-[220px]">
         <GettingStarted />
         <Feature />
         <Tools />

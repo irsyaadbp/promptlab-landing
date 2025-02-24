@@ -79,7 +79,7 @@ const contacts = [
 
 export default function Contact() {
   return (
-    <section className="py-12 relative">
+    <section className="pt-12 relative">
       <div className="px-4 container">
         <Card
           style={{

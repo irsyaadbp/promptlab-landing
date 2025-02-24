@@ -6,7 +6,7 @@ import { Particles } from "@/components/magicui/particles";
 
 export default function GradientWrapper({ children, className = "" }) {
   return (
-    <div className={cn("relative h-screen", className)}>
+    <div className={cn("relative", className)}>
       <img
         src={GradientLeft}
         className="absolute top-0 left-0"
