@@ -11,7 +11,7 @@ import CopyScript from "@/components/ui/copy-script";
 export default function GettingStarted() {
   return (
     <section className="py-12 relative">
-      <div className="container px-0 md:px-4">
+      <div className="container px-4">
         <Title className="text-center">Start Building with AI Now!</Title>
         <Caption className="text-center mt-4">
           Type your prompt. Watch your code come to life.
@@ -40,7 +40,7 @@ export default function GettingStarted() {
                 <Title as="h4" className="text-2xl lg:text-[56px]">
                   AI That Works the Way You Do
                 </Title>
-                <Caption className="md:text-base">
+                <Caption className="md:text-base text-[#6D747E]">
                   PromptLab integrates with the best AI models, giving you the
                   freedom to choose the right tool for the job.
                 </Caption>
@@ -58,7 +58,7 @@ export default function GettingStarted() {
                     <Title as="h5" className="md:text-lg font-normal">
                       ChatGPT for code generation?
                     </Title>
-                    <Caption className="md:text-base">
+                    <Caption className="md:text-base text-[#6D7E7A]">
                       The go-to AI for code generation, debugging, and
                       explanations.
                     </Caption>
@@ -75,7 +75,7 @@ export default function GettingStarted() {
                     <Title as="h5" className="md:text-lg font-normal">
                       Gemini for deep reasoning?
                     </Title>
-                    <Caption className="md:text-base">
+                    <Caption className="md:text-base text-[#6D7E7A]">
                       Best for deep reasoning, structured coding, and
                       research-heavy tasks.
                     </Caption>
